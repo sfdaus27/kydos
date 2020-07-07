@@ -1,0 +1,13 @@
+.lbookContainer {
+}
+.lbookBody {
+  position: relative;
+  z-index: -5;
+  background-color: black;
+}
+
+.backgroundLb {
+  background-image: url(https://cdn.discordapp.com/attachments/312173234663718913/729591969680195606/IMG_6048.JPG);
+  opacity: 80%;
+  height: 88vh;
+}

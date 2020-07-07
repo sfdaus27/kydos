@@ -1,25 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
+import "./App.css";
+import { Cart } from "./components/Cart";
+import Items from "./components/Items";
+import { Default } from "./components/Default";
+import { Main } from "./components/Main";
+import { Landing } from "./components/Landing";
+import { About } from "./components/About";
+import { Lookbook } from "./components/Lookbook";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Landing />
+        </Route>
+        <Route path="/main">
+          <Main />
+        </Route>
+        <Route path="/items">
+          <Items />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/cart">
+          <Cart />
+        </Route>
+        <Route path="/lookbook">
+          <Lookbook />
+        </Route>
+        <Route path="*">
+          <Default />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

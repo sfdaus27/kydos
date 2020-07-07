@@ -2,13 +2,23 @@
   "name": "kydos-web",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.12.1",
+    "node": "12.13.1"
+  },
   "dependencies": {
+    "@brainhubeu/react-carousel": "^1.19.14",
+    "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
+    "react-burger-menu": "^2.6.17",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-fa": "^5.0.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-sticky": "^6.0.3"
   },
   "scripts": {
     "start": "react-scripts start",

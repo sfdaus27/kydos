@@ -1,0 +1,27 @@
+.CardMedia {
+  background-color: #d3d3d3;
+}
+
+.MuiCardActions-root {
+  background-color: #f8f8f8;
+}
+
+
+.wrapperText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 244px;
+  font-size: 14px;
+}
+
+.wrapperText p {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.contName {
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,18 @@
+.carsliderContainer {
+  overflow: hidden;
+}
+
+.BrainhubCarousel {
+  height: 100vh;
+  z-index: -10;
+}
+
+.BrainhubCarousel__trackContainer {
+  position: relative;
+  z-index: -10;
+  opacity: 80%;
+}
+
+.BrainhubCarousel__customArrows span {
+  border: 80px;
+}
