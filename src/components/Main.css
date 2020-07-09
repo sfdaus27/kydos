@@ -1,5 +1,20 @@
 .mainBody {
-  min-height: 74vh;
+  min-height: 100vh;
+}
+
+.nav {
+  position: relative;
+  z-index: 10;
+}
+
+.carWrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -5;
+  min-height: 100vh;
 }
 
 .wrapperContent {
@@ -9,7 +24,6 @@
 }
 
 .secondContent {
-  position: relative;
   display: flex;
   justify-content: space-around;
   width: 100%;

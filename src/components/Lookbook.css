@@ -1,13 +1,24 @@
 .lbookContainer {
+  /* min-height: 88vh; */
 }
 .lbookBody {
-  position: relative;
-  z-index: -5;
-  background-color: black;
+  min-height: 88vh;
 }
 
 .backgroundLb {
   background-image: url(https://cdn.discordapp.com/attachments/312173234663718913/729591969680195606/IMG_6048.JPG);
+  background-size: cover;
   opacity: 80%;
-  height: 88vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -10;
+  overflow: hidden;
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+  /* width: 100%; */
+  /* height: 0; */
+  /* padding-top: 66.64%; */
 }

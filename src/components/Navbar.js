@@ -13,6 +13,7 @@ export class Navbar extends React.Component {
               <img
                 src="https://cdn.discordapp.com/attachments/312173234663718913/729691248776052846/kydoslogo_white.png"
                 className="img-responsive"
+                alt="kydos img"
               />
             </Link>
           </div>

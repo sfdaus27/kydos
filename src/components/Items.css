@@ -1,13 +1,17 @@
 .itemsContainer {
 }
 .itemsContent {
-  position: relative;
-  z-index: -5;
-  background-color: black;
+  min-height: 88vh;
 }
 
 .backgroundItems {
   background-image: url(https://cdn.discordapp.com/attachments/312173234663718913/729591746484371506/IMG_6032.JPG);
+  background-size: cover;
   opacity: 80%;
-  height: 88vh;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -10;
 }

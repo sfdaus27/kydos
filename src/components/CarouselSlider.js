@@ -1,5 +1,4 @@
 import React from "react";
-import Carousel, { Dots } from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 import "./CarouselSlider.css";
 
@@ -9,9 +8,18 @@ export class CarouselSlider extends React.Component {
     this.state = {
       value: 0,
       slides: [
-        <img src="https://cdn.discordapp.com/attachments/312173234663718913/729591162968473640/IMG_6027.JPG" />,
-        <img src="https://cdn.discordapp.com/attachments/312173234663718913/729591746484371506/IMG_6032.JPG" />,
-        <img src="https://cdn.discordapp.com/attachments/312173234663718913/729591969680195606/IMG_6048.JPG" />,
+        <img
+          src="https://cdn.discordapp.com/attachments/312173234663718913/729591162968473640/IMG_6027.JPG"
+          alt="Girl in a jacket"
+        />,
+        <img
+          src="https://cdn.discordapp.com/attachments/312173234663718913/729591746484371506/IMG_6032.JPG"
+          alt="Girl in a jacket"
+        />,
+        <img
+          src="https://cdn.discordapp.com/attachments/312173234663718913/729591969680195606/IMG_6048.JPG"
+          alt="Girl in a jacket"
+        />,
       ],
     };
     this.onChange = this.onChange.bind(this);
@@ -32,9 +40,8 @@ export class CarouselSlider extends React.Component {
             autoPlay={6000}
             animationSpeed={2000}
             infinite
-            // arrowLeft={<Icon name="angle-left" />}
-            // arrowRight={<Icon name="angle-right" />}
             draggable={false}
+            offset={0}
             addArrowClickHandler
           />
         </div>

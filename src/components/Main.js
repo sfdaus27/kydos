@@ -9,31 +9,57 @@ import MediaCard from "./Card";
 export class Main extends React.Component {
   render() {
     return (
-      <div class="containerMain">
-        <StickyContainer>
-          <Sticky disableCompensation>
-            {({ style }) => (
-              <div style={style}>
-                <Navbar />
-              </div>
-            )}
-          </Sticky>
+      <StickyContainer>
+        <div class="sticky"></div>
+        <Sticky disableCompensation>
+          {({ style }) => (
+            <div style={style}>
+              <Navbar />
+            </div>
+          )}
+        </Sticky>
+        <div class="wrapperMainAll">
           <div class="mainBody">
             <div class="carWrapper">
               <CarouselSlider />
             </div>
-            <div className="wrapperContent">
-              <div class="secondContent">
-                <MediaCard />
-                <MediaCard />
-                <MediaCard />
-                <MediaCard />
-              </div>
-            </div>
           </div>
-          <Footer />
-        </StickyContainer>
-      </div>
+          <div className="wrapperContent">
+            <div class="secondContent">
+              <MediaCard />
+              <MediaCard />
+              <MediaCard />
+              <MediaCard />
+            </div>
+            <div class="secondContent">
+              <MediaCard />
+              <MediaCard />
+              <MediaCard />
+              <MediaCard />
+            </div>
+            <div class="secondContent">
+              <MediaCard />
+              <MediaCard />
+              <MediaCard />
+              <MediaCard />
+            </div>
+            <div class="secondContent">
+              <MediaCard />
+              <MediaCard />
+              <MediaCard />
+              <MediaCard />
+            </div>
+            <div class="secondContent">
+              <MediaCard />
+              <MediaCard />
+              <MediaCard />
+              <MediaCard />
+            </div>
+
+          </div>
+        </div>
+        <Footer />
+      </StickyContainer>
     );
   }
 }
