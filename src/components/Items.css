@@ -7,7 +7,7 @@
 .backgroundItems {
   background-image: url(https://cdn.discordapp.com/attachments/312173234663718913/729591746484371506/IMG_6032.JPG);
   background-size: cover;
-  opacity: 80%;
+  opacity: 0.8;
   position: fixed;
   left: 0;
   right: 0;
