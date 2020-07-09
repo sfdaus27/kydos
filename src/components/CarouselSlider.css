@@ -10,7 +10,7 @@
 .BrainhubCarousel__trackContainer {
   position: relative;
   z-index: -10;
-  opacity: 80%;
+  opacity: 0.85;
 }
 
 .BrainhubCarousel__customArrows span {

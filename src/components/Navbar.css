@@ -11,7 +11,6 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 12vh;
-  opacity: 100% !important;
 }
 
 .nav-links {
